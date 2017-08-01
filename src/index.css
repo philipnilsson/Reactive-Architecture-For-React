@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.completions {
+    transition: height .3s;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+}
+
+input {
+    padding: .5em;
+}
+
+.completions li {
+    padding: 3px;
+    cursor: pointer;
+}
+
+.completions:not(:empty) {
+    border: 1px solid #eee;
+}
+
+.completions li:nth-child(2n+1) {
+    background: #eee;
+}
+
+.completions li:hover {
+    background: #eeeeff;
+}
+
+.movie-view {
+    background: #eee;
+    padding: 1em;
+}
